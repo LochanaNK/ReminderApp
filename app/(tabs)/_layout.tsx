@@ -29,12 +29,6 @@ export default function TabLayout() {
         title: 'My Reminders',
       }}
       />
-      <Tabs.Screen
-      name="addReminder"
-      options={{
-        title: 'Add Reminder',
-      }}
-      />
     </Tabs>
   );
 }
